@@ -1,6 +1,6 @@
 # AWS Assistant GPT-4 ChatBot with Chat-History with Langchain RAG + Lambda + API Gateway + PostgreSQL
 
-### [Watch this tutorial►](https://youtu.be/YWmnD_QcZQU)
+### [Watch this tutorial►](https://youtu.be/e9XhPMmXI2Q)
 <img src="https://github.com/Spidy20/AWS-Assistant-RAG-ChatBot/blob/master/yt_thumbnail.jpg">
 
 - In this tutorial, we'll be creating a GPT-4 AWS Helper ChatBot utilizing Langchain, Lambda, API Gateway, and PostgreSQL PGVector hosted on an EC2 instance as our Vector database.
@@ -67,6 +67,8 @@ Lambda-SAM-App
   ```
   Once this is done successfully, you will see the Lambda function created in your selected region. From Lambda console, you can get rest API URL to invoke API. 
 
+### Demo of ChatBot
+<img src="https://github.com/Spidy20/AWS-Assistant-RAG-ChatBot/blob/master/Chatbot-demo.PNG">
 
 ### Give Star⭐ to this repository, and fork it to support me. 
 
