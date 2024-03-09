@@ -1,12 +1,12 @@
 # AWS Assistant GPT-4 ChatBot with Chat-History with Langchain RAG + Lambda + API Gateway + PostgreSQL
 
 ### [Watch this tutorial►](https://youtu.be/YWmnD_QcZQU)
-<img src="https://github.com/Spidy20/Object-Detection-API-Lambda/blob/master/yt_thumb.jpg">
+<img src="https://github.com/Spidy20/AWS-Assistant-RAG-ChatBot/blob/master/yt_thumbnail.jpg">
 
 - In this tutorial, we'll be creating a GPT-4 AWS Helper ChatBot utilizing Langchain, Lambda, API Gateway, and PostgreSQL PGVector hosted on an EC2 instance as our Vector database.
 
 ### Implementation Architecture
-<img src="https://github.com/Spidy20/Object-Detection-API-Lambda/blob/master/Object-Detection-API-Lambda-Arch-1.0.drawio.png">
+<img src="https://github.com/Spidy20/AWS-Assistant-RAG-ChatBot/blob/master/AWS-Assistant-ChatBot-Architecture.png">
 
 ### Used Services
 - **AWS Lambda**: Responsible for managing API backend Object Detection processing.
