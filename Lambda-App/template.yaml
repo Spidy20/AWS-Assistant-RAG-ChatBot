@@ -1,0 +1,43 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  Sample SAM Template for LLM Pipeline Automation
+
+# More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
+Globals:
+  Function:
+    Timeout: 900
+    MemorySize: 4096
+    Environment:
+        Variables:
+          HOST: 13.233.136.178
+          DATABASE: postgres
+          USER: postgres
+          PASSWORD: spidy20
+          OPENAI_MODEL_ID: gpt-4-1106-preview
+          COLLECTION_NAME: new_youtube_collection
+          MODEL_TEMP: 0.0
+          CHAT_HISTORY_MESSAGE_COUNT: 24
+          OPENAI_API_KEY: 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
+
+Resources:
+  GenerateResponse:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: Backend
+      Handler: Lambda_Response_App.lambda_handler
+      Runtime: python3.11
+      Architectures:
+        - x86_64
+      Events:
+        Login:
+          Type: Api
+          Properties:
+            Path: /response
+            Method: POST
+      EphemeralStorage:
+        Size: 2048
+      Description: "It read data from PlSQL RDS, and send back a response to user query. It supports chat-history."
+
+
+

@@ -1,0 +1,12 @@
+openpyxl
+networkx
+pypdf
+unstructured
+langchain
+psycopg2-binary
+langchain-openai
+pgvector
+tiktoken
+psycopg
+psycopg-binary
+requests

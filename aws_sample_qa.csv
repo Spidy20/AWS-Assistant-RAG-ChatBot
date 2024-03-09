@@ -1,0 +1,46 @@
+Question,Answer
+What is Amazon EC2 Fleet?,"Amazon EC2 Fleet is a service that simplifies the provisioning and management of EC2 capacity across different instance types, Availability Zones, and purchase models, such as On-Demand, Spot, and Reserved Instances."
+What is an Amazon EC2 placement group?,An Amazon EC2 placement group is a logical grouping of instances within a single Availability Zone. It enables applications to take advantage of low-latency networking between instances.
+What is Amazon EC2 Instance Metadata?,"Amazon EC2 Instance Metadata is a service provided by EC2 instances that allows you to retrieve information about the instance, such as its instance ID, public IP address, and security group settings."
+What is Amazon SageMaker Ground Truth?,Amazon SageMaker Ground Truth is a fully managed data labeling service that makes it easy to build highly accurate training datasets for machine learning.
+What is the purpose of VPC in Amazon EC2?,A Virtual Private Cloud (VPC) is a virtual network dedicated to your AWS account. It provides a logically isolated section of the AWS Cloud where you can launch AWS resources.
+What is Amazon SageMaker Processing?,"Amazon SageMaker Processing is a managed data processing service that simplifies running data preprocessing, post-processing, feature engineering, and model evaluation tasks on Amazon SageMaker."
+What is AWS Lambda?,"AWS Lambda is a serverless computing service provided by AWS, allowing you to run code without provisioning or managing servers."
+What is Amazon SageMaker Model Monitor?,"Amazon SageMaker Model Monitor is a capability of Amazon SageMaker that automatically monitors machine learning models in production, detecting deviations in data quality and model behavior."
+What are the components of AWS SageMaker?,"Components include Jupyter notebooks for data exploration and experimentation, training instances for model training, and hosting services for deploying machine learning models."
+What is Amazon EC2 Spot Instances?,"Amazon EC2 Spot Instances allow you to bid for spare Amazon EC2 computing capacity, which can significantly reduce the cost of running your applications."
+What is an AMI in Amazon EC2?,An AMI (Amazon Machine Image) is a template that contains the software configuration (including the operating system) required to launch an EC2 instance.
+What is the significance of an EC2 key pair?,"An EC2 key pair is used to securely connect to EC2 instances via SSH. It consists of a public key, which is stored on the instance, and a private key, which is kept by the user."
+What are triggers in AWS Lambda?,"Triggers are events that invoke AWS Lambda functions. Examples include changes in Amazon S3 buckets, updates to DynamoDB tables, and messages from Amazon SNS."
+What algorithms are supported by AWS SageMaker?,"AWS SageMaker supports a wide range of built-in algorithms for tasks such as classification, regression, clustering, and recommendation systems."
+What languages are supported by AWS Lambda?,"AWS Lambda supports multiple programming languages including Node.js, Python, Java, Go, and Ruby."
+What is Amazon EC2 Instance Store?,Amazon EC2 Instance Store provides temporary block-level storage for your instances. It is ideal for temporary storage of data that doesn't require durability or for scratch space.
+What is auto-scaling in Amazon EC2?,Auto-scaling allows EC2 instances to automatically adjust the number of instances in response to changes in demand. It helps maintain application availability and optimize costs.
+What is an EC2 security group?,An EC2 security group acts as a virtual firewall for controlling inbound and outbound traffic to an EC2 instance.
+What is an EC2 instance type?,"An EC2 instance type defines the virtual hardware configuration of the EC2 instance, including CPU, memory, storage, and networking capacity."
+What is the difference between on-demand and spot instances in Amazon EC2?,"On-demand instances are charged at a fixed rate per hour with no long-term commitments, while spot instances allow users to bid for unused EC2 capacity, potentially reducing costs."
+What is a SageMaker notebook instance?,"A SageMaker notebook instance is a fully managed machine learning development environment that allows you to create and run Jupyter notebooks to build, train, and deploy machine learning models."
+What is AWS SageMaker?,"AWS SageMaker is a fully managed machine learning service provided by AWS, allowing developers and data scientists to build, train, and deploy machine learning models at scale."
+What is Amazon EC2 Dedicated Host?,An Amazon EC2 Dedicated Host is a physical server with EC2 instance capacity fully dedicated to your use. It can help you reduce costs by allowing you to use your existing server-bound software licenses.
+What is Amazon EC2?,Amazon EC2 (Elastic Compute Cloud) is a web service that provides resizable compute capacity in the cloud. It allows users to rent virtual servers on which they can run their own applications.
+What is an Elastic IP address in Amazon EC2?,An Elastic IP address is a static IPv4 address designed for dynamic cloud computing. It allows users to remap their public IP addresses to any instance in their account.
+How does Amazon SageMaker facilitate model deployment?,"Amazon SageMaker provides capabilities to deploy machine learning models as real-time endpoints or batch transformations, allowing applications to use the models for inference."
+What is Amazon EC2 Hibernation?,"Amazon EC2 Hibernation is a feature that allows you to pause and resume EC2 instances, preserving the instance state and reducing time-to-start for instances that are not in use."
+What are the benefits of using AWS Lambda?,"Benefits include automatic scaling, cost-effectiveness, reduced operational complexity, and seamless integration with other AWS services."
+What is the maximum execution time allowed for a single invocation of AWS Lambda function?,The maximum execution time allowed for a single invocation of an AWS Lambda function is 15 minutes.
+What is Amazon SageMaker Autopilot?,"Amazon SageMaker Autopilot is a fully managed service that automatically builds, trains, and tunes machine learning models, selecting the best algorithms and hyperparameters."
+What algorithms are supported by AWS SageMaker?,"AWS SageMaker supports a wide range of built-in algorithms for tasks such as classification, regression, clustering, and recommendation systems."
+What languages are supported by AWS Lambda?,"AWS Lambda supports multiple programming languages including Node.js, Python, Java, Go, and Ruby."
+What is the difference between on-demand and spot instances in Amazon EC2?,"On-demand instances are charged at a fixed rate per hour with no long-term commitments, while spot instances allow users to bid for unused EC2 capacity, potentially reducing costs."
+What is an EC2 security group?,An EC2 security group acts as a virtual firewall for controlling inbound and outbound traffic to an EC2 instance.
+What is AWS SageMaker?,"AWS SageMaker is a fully managed machine learning service provided by AWS, allowing developers and data scientists to build, train, and deploy machine learning models at scale."
+What is an AMI in Amazon EC2?,An AMI (Amazon Machine Image) is a template that contains the software configuration (including the operating system) required to launch an EC2 instance.
+What is an Elastic IP address in Amazon EC2?,An Elastic IP address is a static IPv4 address designed for dynamic cloud computing. It allows users to remap their public IP addresses to any instance in their account.
+What are the components of AWS SageMaker?,"Components include Jupyter notebooks for data exploration and experimentation, training instances for model training, and hosting services for deploying machine learning models."
+What are the benefits of using AWS Lambda?,"Benefits include automatic scaling, cost-effectiveness, reduced operational complexity, and seamless integration with other AWS services."
+What is AWS Lambda?,"AWS Lambda is a serverless computing service provided by AWS, allowing you to run code without provisioning or managing servers."
+What is an EC2 instance type?,"An EC2 instance type defines the virtual hardware configuration of the EC2 instance, including CPU, memory, storage, and networking capacity."
+What is auto-scaling in Amazon EC2?,Auto-scaling allows EC2 instances to automatically adjust the number of instances in response to changes in demand. It helps maintain application availability and optimize costs.
+What are triggers in AWS Lambda?,"Triggers are events that invoke AWS Lambda functions. Examples include changes in Amazon S3 buckets, updates to DynamoDB tables, and messages from Amazon SNS."
+What is Amazon EC2?,Amazon EC2 (Elastic Compute Cloud) is a web service that provides resizable compute capacity in the cloud. It allows users to rent virtual servers on which they can run their own applications.
+What is the maximum execution time allowed for a single invocation of AWS Lambda function?,The maximum execution time allowed for a single invocation of an AWS Lambda function is 15 minutes.
